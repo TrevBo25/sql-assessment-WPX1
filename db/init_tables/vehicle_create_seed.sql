@@ -14,7 +14,7 @@ DROP TABLE IF EXISTS vehicles;
 -- owner_id   should be a number, foreign key
 
 CREATE TABLE IF NOT EXISTS vehicles (
-  id SERIAL PRIMARY KEY
+  id SERIAL PRIMARY KEY,
   make VARCHAR,
   model VARCHAR,
   year INTEGER,
